@@ -1,9 +1,9 @@
 ---
 name: Release issue template
 about: Describe this issue template's purpose here.
-title: "Release v0.XX.0"
-labels: "maintenance"
-assignees: ""
+title: 'Release v0.XX.0'
+labels: 'configuration'
+assignees: ''
 ---
 
 # Before Working on the Issue

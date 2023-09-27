@@ -15,6 +15,7 @@
 		"format:prettier": "eslint . --fix && prettier --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
+		"test:unit:run": "vitest run",
 		"typecheck": "tsc --noEmit",
 		"branch": "git checkout main && git pull && tsx ./src/scripts/create_git_branch.ts"
 	},

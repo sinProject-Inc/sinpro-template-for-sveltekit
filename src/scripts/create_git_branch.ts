@@ -9,7 +9,7 @@ export class CreateGitBranch {
 			.join('-')
 	}
 
-	private _generate_branch_name(issue_string: string): string   {
+	private _generate_branch_name(issue_string: string): string {
 		// Issue名と番号を抽出
 		const issue_parts = RegExp(/^(.*?)(#\d+)$/).exec(issue_string)
 

@@ -26,8 +26,8 @@ assignees: ''
 
 ## GitHub
 
-- [ ] [Close されている PR 一覧](https://github.com/sinProject-Inc/post-master/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed) で、機能拡張だと思われるものに `enhancement` のラベルを付ける。
-- [ ] [GitHub のリリース 作成ページ](https://github.com/sinProject-Inc/post-master/releases)を開き、`Draft a new release` ボタンをクリックする。
+- [ ] [Close されている PR 一覧](https://github.com/sinProject-Inc/sinpro-template-for-sveltekit/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aclosed) で、機能拡張だと思われるものに `enhancement` のラベルを付ける。
+- [ ] [GitHub のリリース 作成ページ](https://github.com/sinProject-Inc/sinpro-template-for-sveltekit/releases)を開き、`Draft a new release` ボタンをクリックする。
 - [ ] `Choose a tag` で、新規作成したタグを選択する。
 - [ ] `Generate release notes` ボタンを押す。
 - [ ] 自動生成されたリリースノートの Release に関する項目を削除する。
@@ -37,11 +37,11 @@ assignees: ''
 ## Server
 
 - [ ] `ssh dev@sinpro-dev` で接続する。
-- [ ] cd ~/dev/post-master
+- [ ] cd ~/dev/sinpro-template-for-sveltekit
 - [ ] git checkout main && git pull
 - [ ] npm i --legacy-peer-deps
 - [ ] npm run build
-- [ ] pm2 restart post-master
+- [ ] pm2 restart sinpro-template-for-sveltekit
 
 ## Check
 

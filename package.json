@@ -13,7 +13,8 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
-		"typecheck": "tsc --noEmit"
+		"typecheck": "tsc --noEmit",
+		"branch": "git checkout main && git pull && tsx ./src/scripts/create_git_branch.ts"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -29,6 +30,7 @@
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",
+		"tsx": "^3.13.0",
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2",
 		"vitest": "^0.32.2"

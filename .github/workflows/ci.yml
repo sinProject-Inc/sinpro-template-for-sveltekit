@@ -45,8 +45,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Vitest Test
-        run: npx vitest
+      - name: Vitest Test and coverage
+        run: npx vitest run --coverage
 
       - name: Playwright Test
         run: npx playwright test

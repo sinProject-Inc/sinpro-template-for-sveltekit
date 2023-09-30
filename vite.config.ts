@@ -5,5 +5,10 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}'],
+		coverage: {
+			// all: true,
+			include: ['src/**/*.{ts,js}'],
+			reporter: ['lcov', 'text'],
+		},
 	},
 })

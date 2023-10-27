@@ -31,5 +31,5 @@ closes #ISSUE_NUMBER
 
 - [ ] Leave an approval comment (e.g. LGTM)
 - [ ] On Slack, mention the PR submitter and a project admin, write which PR you have reviewed, and ask the project admin to review and merge the PR
-- [ ] if you are a project admin, merge the PR
+- [ ] If you are a project admin, merge the PR
 - [ ] Write an approval comment with praise on Slack
